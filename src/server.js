@@ -4,7 +4,8 @@ const cors = require('cors')
 const app = express()
 
 var corOptions = {
-    origin: 'http://localhost:4200'
+    //origin: 'http://localhost:4200'
+    origin: 'https://jokwechime.github.io/juderepotest/ElectionMgr/'
 }
 
 // middlewares
