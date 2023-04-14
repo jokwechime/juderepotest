@@ -5,10 +5,10 @@ const mysql = require('mysql');
 const events = require('./events');
 
 const connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'electionUser',
-  password : '!Sioma@2004',
-  database : 'ElectionDB'
+  host     : 'us-cdbr-east-06.cleardb.net',
+  user     : 'bb8b34237224f6',
+  password : 'fba043a9',
+  database : 'heroku_1a6a2828e9d530a'
 });
 
 connection.connect();
